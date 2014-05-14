@@ -1,10 +1,7 @@
 {
   "dependencies": {
-    "xunit.abstractions": "2.0.0-aspnet-*",
-    "xunit.assert": "2.0.0-aspnet-*",
-    "xunit.core": "2.0.0-aspnet-*",
-    "xunit.execution": "2.0.0-aspnet-*",
-    "Xunit.KRunner": ""
+    "Xunit.KRunner": "",
+    "xunit.assert": "2.0.0-beta-build2650"
   },
   "commands": {
     "test": "Xunit.KRunner"
@@ -15,10 +12,6 @@
         "System.Runtime": ""
       }
     },
-    "k10": {
-      "dependencies": {
-        "System.Runtime": "4.0.20.0"
-      }
-    }
+    "k10": {}
   }
 }
